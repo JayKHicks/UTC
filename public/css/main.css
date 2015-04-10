@@ -1,0 +1,333 @@
+body{
+	cursor:default;
+	color: #ffffff;
+	font-family: 'Futura Today Light',Arial,sans-serif;
+	font-size: 21px;
+	padding:0;
+	margin:0;
+	min-width: 400px;
+	overflow-y:scroll;
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+	-moz-user-select: none; /* mozilla browsers */
+	-khtml-user-select: none; /* webkit (konqueror) browsers */
+	-ms-user-select: none; /* IE10+ */
+	letter-spacing: 0.5px;
+}
+body.green{
+	background-color:#7DC87D;
+}
+body.yellow{
+	background-color:#F58A3D;
+}
+body.red{
+	background-color:#E04949;
+}
+.good .wrapper{
+	background-color:#65B565;
+}
+.warning .wrapper{
+	background-color:#E7833A;
+}
+.error .wrapper{
+	background-color:#DD3434;
+}
+.menu{
+	z-index: 10;
+	overflow-y: hidden;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+}
+.menu-items{
+	padding: 0 10px;
+	cursor: default;
+	position: relative;
+	width: 400px;
+	z-index: 15;
+	margin: 60px auto 0px auto;
+}
+.menu-items select{
+	width: 250px;
+	height: 25px;
+	font-family: 'Futura Today',Arial,sans-serif;
+	font-size: 14px;
+	border-radius: 3px;
+	cursor:pointer;
+}
+.menu-items li{
+	display:block
+}
+.menu-items .item-header{
+	margin-bottom:10px;
+}
+.menu-items .item{
+	padding:10px 0;
+}
+.menu.open .menu-overlay{
+	background: rgba(0,0,0,0.85);
+}
+.menu-overlay{
+	background: rgba(0,0,0,0.2);
+	line-height: 40px;
+	vertical-align: middle;
+	cursor:pointer;
+	position: absolute;
+	width:100%;
+	height:100%;
+	-webkit-transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-ms-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear;
+	transition: background 0.3s linear;
+	z-index:12;
+}
+.menu-overlay .top-bar i{
+	vertical-align: middle;
+	line-height: 43px;
+	font-size: 24px;
+}
+.menu-overlay .top-bar{
+	width:400px;
+	margin:0 auto;
+}
+.menu-overlay span.app-name{
+	float:right;
+}
+.main-container{
+	width:400px;
+	min-height:800px;
+	margin:0 auto;
+	padding-bottom:30px;
+	z-index:5;
+}
+.center-image{
+	height:225px;
+}
+.center-image:after{
+	font-family: fontawesome;
+	font-size: 120px;
+	color: #fff;
+	margin: 60px 0px 0px 146px;
+	position: absolute;
+}
+.green .center-image:after, .good li.item:after, .component .title.good:after{
+	content:"\f058";
+}
+.yellow .center-image:after, .warning li.item:after ,.component .title.warning:after{
+	content:"\f071";
+	margin-right:-2px;
+}
+.red .center-image:after, .error li.item:after, .component .title.error:after{
+	content:"\f057";
+}
+.center-image-overlay{
+	position: absolute;
+	margin: -140px 0px 0px 275px;
+	font-size: 20px;
+}
+.center-image-overlay div:hover{
+	cursor:pointer;
+	text-shadow:0px 0px 2px #fff;
+}
+.center-image.overlay span{
+	font-size:20px;
+}
+.time{
+	font-size: 19px;
+	float: right;
+	line-height: 30px;
+	vertical-align: middle;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	text-shadow: none;
+}
+.time.timeGlow{
+	text-shadow: 0px 0px 0px #fff;
+}
+.components-header{
+	border-bottom:2px solid #fff;
+	padding-bottom:5px;
+	width:initial;
+	margin-bottom:5px;
+	cursor:pointer;
+}
+.components-header span{
+	padding-left:5px;
+}
+.components-header:before{
+	font-family:fontawesome;
+	content:"\f103";
+}
+.components-header.collapse:before{
+	content:"\f102";
+}
+.components-header:hover:before, .components-header:hover .title{
+	text-shadow:0px 0px 1px #fff;
+}
+.components-list .component{
+	overflow:hidden;
+	margin-bottom:5px;
+}
+.components-list li.item{
+	display:block;
+	padding:4px 5px;
+	font-size:19px;
+	width:inherit;
+	-webkit-transition: background-color 0.15s linear, color 0.15s linear;
+	-moz-transition: background-color 0.15s linear, color 0.15s linear;
+	-ms-transition: background-color 0.15s linear, 0.15s linear;
+	-o-transition: background-color 0.15s linear, 0.15s linear;
+	transition: background-color 0.15s linear, 0.15s linear;
+	cursor:pointer;
+}
+.good li.item:after, .warning li.item:after, .error li.item:after{
+	font-family: fontawesome;
+	float: right;
+	line-height: 23px;
+	vertical-align: middle;
+	font-size: 22px;
+}
+.good.checked li.item:hover,.good.checked li.item{
+	color:#65B565;
+}
+.warning.checked li.item:hover,.warning.checked li.item{
+	color:#E7833A;
+}
+.error.checked li.item:hover,.error.checked li.item{
+	color:#DD3434;
+}
+.good li.item:hover, .warning li.item:hover, .error li.item:hover{
+	font-family: 'Futura Today',Arial,sans-serif;
+	padding-left:10px;
+}
+.checked li.item, .checked li.item:hover{
+	border-radius:3px;
+	border-bottom-right-radius:0px;
+	background-color:#ffffff;
+	font-family:'Futura Today',Arial,sans-serif;
+}
+.component div.items{
+	padding-left: 20px;
+	margin-right: 25px;
+	border-top: 1px solid #fff;
+}
+.component div.subitems{
+	margin: -7px 25px 10px 0px;
+	font-size: 11px;
+}
+.component .testitem{
+	margin-left: 10px;
+}
+.component .testitem.sub{
+	margin-left: 25px;
+}
+.component .testitem.sub.warning,.component .testitem.sub.error{
+	color: #731E13;
+	border-left: 4px solid #731E13;
+	margin-left: 17px;
+	padding-left: 5px;
+}
+.component div.title{
+	font-size: 14px;
+	font-family: 'Futura Today',Arial,sans-serif;
+	padding-bottom: 10px;
+	margin-right: 1px;
+	text-transform: capitalize;
+}
+.component div.title.error,.component div.title.warning{
+	font-family: 'Futura Today Bold',Arial,sans-serif;
+}
+.component div.return{
+	font-size: 11px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	font-family: 'Futura Today',Arial,sans-serif;
+	color: #FFF;
+}
+.component div.return:before {
+	font-family: fontawesome;
+	content: "\f017";
+	font-size: 11px;
+	padding-right: 5px;
+	padding-left: 2px;
+}
+.component div.title.parent{
+	font-size: 13px;
+	font-family: 'Futura Today',Arial,sans-serif;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+.component div.title.parent:before{
+	margin-right: 5px;
+	font-family: fontawesome;
+	content: "\f0dd";
+	font-size: 10px;
+	vertical-align: top;
+}
+.component div.title:after{
+	font-family: fontawesome;
+	float: right;
+	vertical-align: baseline;
+	font-size: 14px;
+	line-height: 20px;
+}
+.component div.title.sub{
+	text-transform: capitalize;
+}
+.component div.title.warning:after{
+	margin-right: -1px;
+}
+div.warnings .title, div.errors .title{
+	border-bottom:1px solid #fff;
+	font-family:'Futura Today Demibold',Arial,sans-serif;
+	padding-bottom:2px;
+}
+.checked .wrapper{
+	-webkit-transition: border-width 0s linear;
+	-moz-transition: border-width 0s linear;
+	-ms-transition: border-width 0s linear;
+	-o-transition: border-width 0s linear;
+	transition: border-width 0s linear;
+	border-width:2px;
+	margin-bottom:4px;
+}
+.wrapper{
+	-webkit-transition: border-width 0.15s cubic-bezier(1,.01,1,.01);
+	-moz-transition: border-width 0.15s cubic-bezier(1,.01,1,.01);
+	-ms-transition: border-width 0.15s cubic-bezier(1,.01,1,.01);
+	-o-transition: border-width 0.15s cubic-bezier(1,.01,1,.01);
+	transition: border-width 0.15s cubic-bezier(1,.01,1,.01);
+	margin-left:10px;
+	height:0px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border:0px solid #fff;
+	border-top:none;
+	overflow:hidden;
+}
+.wrapper .title.last{
+	margin-top:10px;
+}
+.wrapper .items li,.wrapper .subitems li{
+	display: block;
+	font-size:12px;
+	text-transform: uppercase;
+	font-family: 'Futura Today Demibold',Arial,sans-serif;
+}
+.wrapper .items li:before,.wrapper .subitems li:before{
+	font-family: fontawesome;
+	content: "\f12a";
+	padding-right: 3px;
+	vertical-align: baseline;
+}
+.wrapper .details{
+	padding: 10px 5px 10px 10px;
+}
+/*Font declarations*/
+@font-face{font-family:'Futura Today';src:url(/fonts/futura_today_normal.eot);src:url(/fonts/futura_today_normal.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_normal.woff) format('woff'),url(/fonts/futura_today_normal.ttf) format('truetype');font-style:normal}
+@font-face{font-family:'Futura Today DemiBold';src:url(/fonts/futura_today_demibold.eot);src:url(/fonts/futura_today_demibold.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_demibold.woff) format('woff'),url(/fonts/futura_today_demibold.ttf) format('truetype');font-style:normal}
+@font-face{font-family:'Futura Today Bold';src:url(/fonts/futura_today_bold.eot);src:url(/fonts/futura_today_bold.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_bold.woff) format('woff'),url(/fonts/futura_today_bold.ttf) format('truetype'),url(/fonts/futura_bold-webfont.svg#FuturaBold) format('svg');font-style:normal}
+@font-face{font-family:'Futura Today Light';src:url(/fonts/futura_today_light.eot);src:url(/fonts/futura_today_light.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_light.woff) format('woff'),url(/fonts/futura_today_light.ttf) format('truetype'),url(/fonts/futura_today_light.svg#FuturaLight) format('svg');font-style:light}		
