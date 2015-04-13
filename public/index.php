@@ -47,7 +47,7 @@ $log = $app->getLog();
 $app->hook('slim.before.dispatch', function() use ($app) {
     $user = isset($_SESSION['user']) ? $_SESSION['user'] : null;
     $app->view()->setData('user', $user);
-    $app->view()->setData("lang", $app->lang);
+    //$app->view()->setData("lang", $app->lang);
 });
 
 $app->get('/', function () use ($app,$log) {
