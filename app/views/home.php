@@ -9,10 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <title>UTC - Landing Page</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <style>
@@ -20,13 +21,25 @@
             padding-top: 70px;
             /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
         }
+
+        .form-group div {
+            position:relative;
+            margin-right:15px;
+        }
+        .form-group div:after {
+            position:absolute;
+            content:'*';
+            color:red;
+            right:-10px;
+            top:0;
+        }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -75,13 +88,50 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-lg-12 text-center">
-            <h1>A Bootstrap Starter Template</h1>
-            <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-            <ul class="list-unstyled">
-                <li>Bootstrap v3.3.1</li>
-                <li>jQuery v1.11.1</li>
-            </ul>
+        <div class="col-lg-12">
+            <h1>Simple Url Builder</h1>
+            <form>
+                <!==  =CONCATENATE(E1,
+                P1,if(isblank(U1),"REQUIRED FIELD",upper(U1)),
+                H1,if(isblank(I1),"REQUIRED FIELD",lower(I1)),
+                J1,if(isblank(K1),"REQUIRED FIELD",lower(K1)),
+                F1,if(isblank(G1),"REQUIRED FIELD",lower(G1)),
+                if(isblank(O1),"",N1&lower(O1)),
+                if(isblank(M1),"",L1&lower(M1)))
+                ==>
+                <div class="form-group">
+                    <label for="baseUrl">Base URL (E)<span style="color:red;">*</span></label>
+                    <input type="url" class="form-control" id="baseUrl" placeholder="Base Url" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="inputU">gps-source (U)<span style="color:red;">*</span></label>
+                    <input type="text" class="form-control" id="inputU" placeholder="gps-source" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="inputI">utm_medium (I)<span style="color:red;">*</span></label>
+                    <input type="text" class="form-control" id="inputI" placeholder="utm_medium" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="inputK">utm_source (K)<span style="color:red;">*</span></label>
+                    <input type="text" class="form-control" id="inputK" placeholder="utm_source" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="inputG">utm_campaign (G)<span style="color:red;">*</span></label>
+                    <input type="text" class="form-control" id="inputG" placeholder="utm_campaign" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="inputO">utm_term (O)</label>
+                    <input type="text" class="form-control" id="inputO" placeholder="utm_term">
+                </div>
+                <div class="form-group">
+                    <label for="inputP">utm_content (M)</label>
+                    <input type="text" class="form-control" id="inputP" placeholder="utm_content">
+                </div>
+                <div class="text-muted"><em><span style="color:red;">*</span> Indicates required field</em></div>
+                <br />
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
         </div>
     </div>
     <!-- /.row -->
@@ -89,11 +139,12 @@
 </div>
 <!-- /.container -->
 
-<!-- jQuery Version 1.11.1 -->
-<script src="js/jquery.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="3rdParty/jquery/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 
