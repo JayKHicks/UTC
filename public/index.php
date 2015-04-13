@@ -40,50 +40,91 @@ $config['slim']['log.writer'] = $logger;
 
 $app = new \Slim\Slim($config['slim']);
 
+$app->add(new \Slim\Middleware\SessionCookie(array('secret' => 'myappsecret')));
+
 $log = $app->getLog();
+
+$authenticate = function($app) {
+    return function() use ($app) {
+                if (!isset($_SESSION['user'])) {
+                    $_SESSION['urlRedirect'] = $app->request()->getPathInfo();
+                    $app->flash('error', 'Login required');
+                    $app->redirect('login');
+                }
+    };
+};
 
 //$app->view->setTemplatesDirectory(APP_PATH."views");
 
 $app->hook('slim.before.dispatch', function() use ($app) {
     $user = isset($_SESSION['user']) ? $_SESSION['user'] : null;
     $app->view()->setData('user', $user);
-    //$app->view()->setData("lang", $app->lang);
 });
 
-$app->get('/', function () use ($app,$log) {
+$app->get('/', $authenticate($app), function () use ($app,$log) {
     $data = array();
     $app->render('home.php', $data);
 })->name('home');
 
-$app->get('/login', function () use ($app) {
-    $app->render('login.php');
+$app->get("/login", function () use ($app) {
+    $flash = $app->view()->getData('flash');
+    $error = '';
+    if (isset($flash['error'])) {
+        $error = $flash['error'];
+    }
+    $urlRedirect = '/';
+    if ($app->request()->get('r') && $app->request()->get('r') != '/logout' && $app->request()->get('r') != '/login') {
+        $_SESSION['urlRedirect'] = $app->request()->get('r');
+    }
+    if (isset($_SESSION['urlRedirect'])) {
+        $urlRedirect = $_SESSION['urlRedirect'];
+    }
+    $email_value = $email_error = $password_error = '';
+    if (isset($flash['email'])) {
+        $email_value = $flash['email'];
+    }
+    if (isset($flash['errors']['email'])) {
+        $email_error = $flash['errors']['email'];
+    }
+    if (isset($flash['errors']['password'])) {
+        $password_error = $flash['errors']['password'];
+    }
+    $app->render('login.php', array('error' => $error, 'email_value' => $email_value, 'email_error' => $email_error, 'password_error' => $password_error, 'urlRedirect' => $urlRedirect));
 })->name('login');
 
 $app->post('/login', function () use ($app) {
     $email = $app->request()->post('inputEmail');
     $password = $app->request()->post('inputPassword');
-    $error = array();
+
+    $errors = array();
 
     if (empty($email) || empty($password)) {
-        $error = "Username (or) Password is invalid";
+        $errors['email'] = "Username (or) Password is invalid";
     } else {
         include(APP_PATH.'config/user.php');
 
         if (isset($userSay[$email])) {
             if ($userSay[$email]['password'] == $password) {
                 $_SESSION['user']=$email;
+
+                if (isset($_SESSION['urlRedirect'])) {
+                    $tmp = $_SESSION['urlRedirect'];
+                    unset($_SESSION['urlRedirect']);
+                    $app->redirect($tmp);
+                }
+
                 $app->redirectTo('home');
             } else {
-                $error = "Username or (Password) is invalid";
+                $errors['password'] = "Username or (Password) is invalid";
             }
         } else {
-            $error = "(Username) or Password is invalid";
+            $errors['email'] = "(Username) or Password is invalid";
         }
     }
 
-    if ($error != '') {
-        $app->flash('errors', $error);
-        $app->render('login.php', array('error' => $error));
+    if (count($errors) > 0) {
+        $app->flash('errors', $errors);
+        $app->redirect('/login');
     }
 });
 

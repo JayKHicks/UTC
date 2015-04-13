@@ -1,77 +1,100 @@
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="/css/main.css" >
-		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
-		<script type="text/javascript" src="/js/main.js"></script>
-		<meta id="myViewport" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
-		<!--<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>-->
-		<script>
-			config = {
-				'appData': {},
-				'timer': ''
-			};
-			$(document).ready(function(){
-				//google.load('visualization', '1', {packages: ['corechart']});
-				SMGinit = new SMG.admin();
-			});
-			window.onload = function () {
-				if (document.documentElement.clientWidth < 451){
-					$('meta#myViewPort').attr('content','width=450')
-				}
-			}
-		</script>
-	</head>
-	<body>
-		<div class="menu">
-			<div class="menu-overlay">
-				<div class="top-bar">
-					<i class="fa fa-th-list"></i>
-					<span class="app-name">SMG Application Stack</span>
-				</div>
-			</div>
-			<div class="menu-items">
-				<div class="item">
-					<li class="item-header">Application Stack</li>
-					<li>
-						<select class="application-name">
-							<option value="SMG">SMG</option>
-						</select>
-					</li>
-				</div>
-				<div class="item">
-					<li class="item-header">Refresh Interval</li>
-					<li>
-						<select class="refresh-interval">
-							<option value="default">none</option>
-							<option value="1">1 minute</option>
-							<option value="5">5 minutes</option>
-							<option value="10">10 minutes</option>
-							<option value="15">15 minutes</option>
-							<option value="30">30 minutes</option>
-						</select>
-					</li>
-				</div>
-			</div>
-		</div>
-		<div class="main-container">
-			<!--<div class="last-updated">
-				<div class="header">Last Updated</div>
-				<div class="time"></div>
-			</div>-->
-			<div class="center-image"></div>
-			<div class="center-image-overlay">
-				<div class="success-num"></div>
-				<div class="warning-num"></div>
-				<div class="error-num"></div>
-			</div>
-			<div class="components">
-				<div class="components-header">
-					<span class="title">Components</span>
-					<span class="time"></span>
-				</div>
-				<div class="components-list"></div>
-			</div>
-		</div>
-	</body>
-<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 70px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">UTC</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+            <form class="navbar-form navbar-right" method="post" action="/logout">
+            <i class="glyphicon glyphicon-user white"></i>
+            <font style="color:#FFFFFF;font-size:10px;padding-right:5px;"><?php echo $_SESSION['user']; ?></font>
+            <input id="logout" type="submit" class="btn btn-success" value="Logout">
+            </form>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1>A Bootstrap Starter Template</h1>
+            <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
+            <ul class="list-unstyled">
+                <li>Bootstrap v3.3.1</li>
+                <li>jQuery v1.11.1</li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery Version 1.11.1 -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
