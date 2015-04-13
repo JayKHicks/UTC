@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb51d646-bdb4-49d5-8c23-a1056ae9144c" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\bin\phpunit" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\bin\phpunit.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\autoload_files.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\include_paths.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installed.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\AglInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\AimeosInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\AnnotateCmsInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\AsgardInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\BaseInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\BitrixInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\CakePHPInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\ChefInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\ClanCatsFrameworkInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\CodeIgniterInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\Concrete5Installer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\CraftInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\CroogoInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\DokuWikiInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\DolibarrInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\DrupalInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\ElggInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\FuelInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\FuelphpInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\GravInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\HuradInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\Installer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\JoomlaInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\KirbyInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\KohanaInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\LaravelInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\LithiumInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\MODULEWorkInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\MODXEvoInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\MagentoInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\MakoInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\MediaWikiInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\MicroweberInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\MoodleInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\OctoberInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\OxidInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\PPIInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\PhpBBInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\PimcoreInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\PiwikInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\PrestashopInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\PuppetInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\RedaxoInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\RoundcubeInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\SMFInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\ShopwareInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\SilverStripeInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\Symfony1Installer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\TYPO3CmsInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\TYPO3FlowInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\TheliaInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\TuskInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\WHMCSInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\WolfCMSInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\WordPressInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\ZendInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\Composer\Installers\ZikulaInstaller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\src\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\AsgardInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\CakePHPInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\DokuWikiInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\GravInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\InstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\MediaWikiInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\OctoberInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\PimcoreInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\PiwikInstallerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\Composer\Installers\Test\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\composer\installers\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\.scrutinizer.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\.travis.install.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\phpmd.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Exception\ExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Exception\InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Exception\UnexpectedValueException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\src\Doctrine\Instantiator\Instantiator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\src\Doctrine\Instantiator\InstantiatorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorPerformance\InstantiatorPerformanceEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\AbstractClassAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\ArrayObjectAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\PharAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\PharExceptionAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\SerializableArrayObjectAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\SimpleSerializableAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\SimpleTraitAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\UnCloneableAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\UnserializeExceptionArrayObjectAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\WakeUpNoticesAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\XMLReaderAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTest\Exception\InvalidArgumentExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTest\Exception\UnexpectedValueExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTest\InstantiatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\flynsarmy\slim-monolog\Flynsarmy\SlimMonolog\Log\MonologWriter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\flynsarmy\slim-monolog\Flynsarmy\SlimMonolog\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\flynsarmy\slim-monolog\Flynsarmy\SlimMonolog\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\.php_cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\Mobile_Detect.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\Mobile_Detect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\examples\demo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\examples\session_example.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\export\exportToJSON.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\namespaced\Detection\MobileDetect.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\BasicsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\UA_List.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\UA_List.pending.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\UserAgentTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\VendorsTest_tmp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Acer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Alcatel.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Allview.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Amazon.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Apple.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Archos.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Asus.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Blackberry.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Dell.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Google.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\HP.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\HTC.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Huawei.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\LG.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Lava.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Lenovo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Mi.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Microsoft.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Motorola.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Nokia.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Others.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Samsung.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Sony.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\SpecialCases.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\providers\vendors\Vodafone.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\mobiledetect\mobiledetectlib\tests\ualist.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\.php_cs" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\CHANGELOG.mdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\README.mdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\doc\extending.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\doc\sockets.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\doc\usage.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\ErrorHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\ChromePHPFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\ElasticaFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\FlowdockFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\FormatterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\GelfMessageFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\HtmlFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\JsonFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\LineFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\LogglyFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\LogstashFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\MongoDBFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\NormalizerFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\ScalarFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Formatter\WildfireFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\AbstractHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\AbstractProcessingHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\AbstractSyslogHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\AmqpHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\BrowserConsoleHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\BufferHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\ChromePHPHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\CouchDBHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\CubeHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\DoctrineCouchDBHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\DynamoDbHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\ElasticSearchHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\ErrorLogHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FilterHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FingersCrossedHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FingersCrossed\ActivationStrategyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FingersCrossed\ChannelLevelActivationStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FingersCrossed\ErrorLevelActivationStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FirePHPHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FleepHookHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\FlowdockHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\GelfHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\GroupHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\HandlerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\HipChatHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\LogEntriesHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\LogglyHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\MailHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\MandrillHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\MissingExtensionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\MongoDBHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\NativeMailerHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\NewRelicHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\NullHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\PsrHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\PushoverHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\RavenHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\RedisHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\RollbarHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\RotatingFileHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\SamplingHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\SlackHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\SocketHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\StreamHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\SwiftMailerHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\SyslogHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\SyslogUdpHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\SyslogUdp\UdpSocket.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\TestHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\WhatFailureGroupHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Handler\ZendMonitorHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Logger.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\GitProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\IntrospectionProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\MemoryPeakUsageProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\MemoryProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\MemoryUsageProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\ProcessIdProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\PsrLogMessageProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\TagProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\UidProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Processor\WebProcessor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\src\Monolog\Registry.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\ErrorHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\ChromePHPFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\ElasticaFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\FlowdockFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\GelfMessageFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\JsonFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\LineFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\LogglyFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\LogstashFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\MongoDBFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\NormalizerFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\ScalarFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Formatter\WildfireFormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\AbstractHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\AbstractProcessingHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\AmqpHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\BrowserConsoleHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\BufferHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\ChromePHPHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\CouchDBHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\DoctrineCouchDBHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\DynamoDbHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\ElasticSearchHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\ErrorLogHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\FilterHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\FingersCrossedHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\FirePHPHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\Fixtures\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\FleepHookHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\FlowdockHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\GelfHandlerLegacyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\GelfHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\GelfMockMessagePublisher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\GroupHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\HipChatHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\LogEntriesHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\MailHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\MockRavenClient.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\MongoDBHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\NativeMailerHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\NewRelicHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\NullHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\PsrHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\PushoverHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\RavenHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\RedisHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\RotatingFileHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\SamplingHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\SlackHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\SocketHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\StreamHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\SwiftMailerHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\SyslogHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\SyslogUdpHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\TestHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\UdpSocketTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\WhatFailureGroupHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Handler\ZendMonitorHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\LoggerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\GitProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\IntrospectionProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\MemoryPeakUsageProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\MemoryUsageProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\ProcessIdProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\PsrLogMessageProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\TagProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\UidProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\Processor\WebProcessorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\PsrLogCompatTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\RegistryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\Monolog\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\monolog\monolog\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Context.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Description.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Location.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Serializer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\AuthorTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\CoversTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\DeprecatedTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\ExampleTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\LinkTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\MethodTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\ParamTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\PropertyReadTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\PropertyTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\PropertyWriteTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\ReturnTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\SeeTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\SinceTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\SourceTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\ThrowsTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\UsesTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\VarTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Tag\VersionTag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\src\phpDocumentor\Reflection\DocBlock\Type\Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlockTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\DescriptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\TagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\CoversTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\DeprecatedTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\ExampleTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\LinkTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\MethodTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\ParamTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\ReturnTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\SeeTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\SinceTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\SourceTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\ThrowsTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\UsesTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\VarTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Tag\VersionTagTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpdocumentor\reflection-docblock\tests\phpDocumentor\Reflection\DocBlock\Type\CollectionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\ArgumentSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\ArgumentsWildcardSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\AnyValueTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\AnyValuesTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\ArrayCountTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\ArrayEntryTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\ArrayEveryEntryTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\CallbackTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\ExactValueTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\IdenticalValueTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\LogicalAndTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\LogicalNotTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\ObjectStateTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\StringContainsTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Argument\Token\TypeTokenSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Call\CallCenterSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Call\CallSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\DisableConstructorPatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\HhvmExceptionPatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\KeywordPatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\MagicCallPatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\ProphecySubjectPatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\ReflectionClassNewInstancePatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\SplFileInfoPatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\ClassPatch\TraversablePatchSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\DoublerSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\Generator\ClassCodeGeneratorSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\Generator\ClassCreatorSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\Generator\ClassMirrorSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\Generator\Node\ArgumentNodeSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\Generator\Node\ClassNodeSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\Generator\Node\MethodNodeSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\LazyDoubleSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Doubler\NameGeneratorSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Call\UnexpectedCallExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Doubler\ClassCreatorExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Doubler\ClassMirrorExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Doubler\ClassNotFoundExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Doubler\DoubleExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Doubler\InterfaceNotFoundExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Doubler\MethodNotFoundExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Prediction\AggregateExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Prediction\NoCallsExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Prediction\UnexpectedCallsCountExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Prediction\UnexpectedCallsExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Prophecy\MethodProphecyExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Exception\Prophecy\ObjectProphecyExceptionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Prediction\CallPredictionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Prediction\CallTimesPredictionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Prediction\CallbackPredictionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Prediction\NoCallsPredictionSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Promise\CallbackPromiseSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Promise\ReturnArgumentPromiseSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Promise\ReturnPromiseSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Promise\ThrowPromiseSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Prophecy\MethodProphecySpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Prophecy\ObjectProphecySpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Prophecy\RevealerSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\ProphetSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\spec\Prophecy\Util\StringUtilSpec.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\ArgumentsWildcard.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\AnyValueToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\AnyValuesToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\ArrayCountToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\ArrayEntryToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\ArrayEveryEntryToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\CallbackToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\ExactValueToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\IdenticalValueToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\LogicalAndToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\LogicalNotToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\ObjectStateToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\StringContainsToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\TokenInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Argument\Token\TypeToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Call\Call.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Call\CallCenter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\CachedDoubler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\ClassPatchInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\DisableConstructorPatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\HhvmExceptionPatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\KeywordPatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\MagicCallPatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\ProphecySubjectPatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\ReflectionClassNewInstancePatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\SplFileInfoPatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\ClassPatch\TraversablePatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\DoubleInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Doubler.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Generator\ClassCodeGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Generator\ClassCreator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Generator\ClassMirror.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Generator\Node\ArgumentNode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Generator\Node\ClassNode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Generator\Node\MethodNode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\Generator\ReflectionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\LazyDouble.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Doubler\NameGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Call\UnexpectedCallException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\ClassCreatorException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\ClassMirrorException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\ClassNotFoundException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\DoubleException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\DoublerException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\InterfaceNotFoundException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\MethodNotFoundException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Doubler\ReturnByReferenceException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prediction\AggregateException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prediction\FailedPredictionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prediction\NoCallsException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prediction\PredictionException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prediction\UnexpectedCallsCountException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prediction\UnexpectedCallsException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prophecy\MethodProphecyException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prophecy\ObjectProphecyException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Exception\Prophecy\ProphecyException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prediction\CallPrediction.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prediction\CallTimesPrediction.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prediction\CallbackPrediction.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prediction\NoCallsPrediction.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prediction\PredictionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Promise\CallbackPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Promise\PromiseInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Promise\ReturnArgumentPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Promise\ReturnPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Promise\ThrowPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prophecy\MethodProphecy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prophecy\ObjectProphecy.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prophecy\ProphecyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prophecy\ProphecySubjectInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prophecy\Revealer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prophecy\RevealerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Prophet.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Util\ExportUtil.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpspec\prophecy\src\Prophecy\Util\StringUtil.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\build\travis-ci.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\scripts\auto_append.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\scripts\auto_prepend.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Driver\HHVM.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Driver\Xdebug.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Exception\UnintentionallyCoveredCode.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Clover.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Crap4j.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Factory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\File.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\coverage_bar.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\css\nv.d3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\dashboard.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\directory.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\directory_item.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\file.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\file_item.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\d3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\nv.d3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\method_item.html.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Node.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Node\Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Node\File.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Node\Iterator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\PHP.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\Text.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\File.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\File\Coverage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\File\Method.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\File\Report.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\File\Unit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\Node.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\Project.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\Tests.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\XML\Totals.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Util.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\src\CodeCoverage\Util\InvalidArgumentHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\PHP\CodeCoverageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\PHP\CodeCoverage\FilterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\PHP\CodeCoverage\Report\CloverTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\PHP\CodeCoverage\Report\FactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\PHP\CodeCoverage\UtilTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\BankAccount-clover.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\BankAccount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\BankAccountTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageClassExtendedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageFunctionParenthesesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageFunctionParenthesesWhitespaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageFunctionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageMethodOneLineAnnotationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageMethodParenthesesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageMethodParenthesesWhitespaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageMethodTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageNoneTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageNotPrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageNotProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageNotPublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageNothingTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoveragePrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoveragePublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoverageTwoDefaultClassAnnotations.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoveredClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\CoveredFunction.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageClassExtendedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageCoversClassPublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageCoversClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageMethodTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageNotPrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageNotProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageNotPublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoveragePrivateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoverageProtectedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoveragePublicTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NamespaceCoveredClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\NotExistingCoveredElementTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\class-with-anonymous-function-clover.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\ignored-lines-clover.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\source_with_class_and_anonymous_function.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\source_with_ignore.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\source_with_namespace.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\source_with_oneline_annotations.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\source_without_ignore.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-code-coverage\tests\_files\source_without_namespace.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\ChangeLog.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\src\Facade.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\src\Factory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-file-iterator\src\Iterator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\ChangeLog.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\Text\Template.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\Text\Template\Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\Text\Template\Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\build\PHPCS\Sniffs\ControlStructures\ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\build\PHPCS\Sniffs\Whitespace\ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\build\PHPCS\ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\build\phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-text-template\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\PHP\Timer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\PHP\Timer\Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\PHP\Timer\Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\Tests\TimerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\build\PHPCS\Sniffs\ControlStructures\ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\build\PHPCS\Sniffs\Whitespace\ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\build\PHPCS\ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\build\phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-timer\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\build\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\src\Token.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\src\Token\Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\src\Token\Stream\CachingFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\TokenTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\Token\ClassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\Token\ClosureTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\Token\FunctionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\Token\IncludeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\Token\InterfaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\Token\NamespaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\classExtendsNamespacedClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\classInNamespace.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\classInScopedNamespace.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\closure.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\issue19.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\issue30.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\multipleNamespacesWithOneClassUsingBraces.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\multipleNamespacesWithOneClassUsingNonBraceSyntax.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\source.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\source2.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\source3.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\source4.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\_fixture\source5.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\php-token-stream\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\build\travis-ci.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Builder\Identity.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Builder\InvocationMocker.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Builder\Match.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Builder\MethodNameMatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Builder\Namespace.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Builder\ParametersMatch.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Builder\Stub.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Exception\BadMethodCallException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Exception\Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Exception\RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\mocked_class.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\mocked_class_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\mocked_clone.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\mocked_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\mocked_static_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\proxied_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\trait_class.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\unmocked_clone.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\wsdl_class.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Generator\wsdl_method.tpl.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Invocation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\InvocationMocker.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Invocation\Object.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Invocation\Static.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Invokable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\AnyInvokedCount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\AnyParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\ConsecutiveParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\Invocation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\InvokedAtIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\InvokedAtLeastCount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\InvokedAtLeastOnce.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\InvokedAtMostCount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\InvokedCount.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\InvokedRecorder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\MethodName.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\Parameters.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Matcher\StatelessInvocation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\MockBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\MockObject.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\ConsecutiveCalls.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\MatcherCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\Return.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\ReturnArgument.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\ReturnCallback.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\ReturnSelf.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Stub\ReturnValueMap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\src\Framework\MockObject\Verifiable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\GeneratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockBuilderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObjectTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\Invocation\ObjectTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\Invocation\StaticTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\Matcher\ConsecutiveParametersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_dont_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_implementing_interface_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_implementing_interface_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_partial.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_with_method_named_method.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\class_with_method_with_variadic_arguments.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\interface.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\invocation_object_clone_object.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class_dont_call_parent_clone.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class_implementing_interface_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class_implementing_interface_dont_call_parent_constructor.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_class_partial.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\namespaced_interface.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\nonexistent_class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\nonexistent_class_with_namespace.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\nonexistent_class_with_namespace_starting_with_separator.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\proxy.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\wsdl_class.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\wsdl_class_namespace.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\MockObject\wsdl_class_partial.phpt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\ProxyObjectTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\AbstractMockTestClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\AbstractTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\AnInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\AnotherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\ClassThatImplementsSerializable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\ClassWithStaticMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\FunctionCallback.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\GoogleSearch.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\InterfaceWithStaticMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\MethodCallback.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\MethodCallbackByReference.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\Mockable.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\PartialMockTestClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\SingletonClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\SomeClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\StaticMockTestClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\_fixture\TraversableMockTestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\phpunit\phpunit-mock-objects\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\AbstractLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\LogLevel.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\LoggerAwareInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\LoggerAwareTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\LoggerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\LoggerTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\NullLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\Psr\Log\Test\LoggerInterfaceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\psr\log\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\build\travis-ci.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\ArrayComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\Comparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\ComparisonFailure.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\DOMNodeComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\DateTimeComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\DoubleComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\ExceptionComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\Factory.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\MockObjectComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\NumericComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\ObjectComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\ResourceComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\ScalarComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\SplObjectStorageComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\src\TypeComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\ArrayComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\DOMNodeComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\DateTimeComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\DoubleComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\ExceptionComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\FactoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\MockObjectComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\NumericComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\ObjectComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\ResourceComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\ScalarComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\SplObjectStorageComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\TypeComparatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\_files\Author.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\_files\Book.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\_files\ClassWithToString.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\_files\SampleClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\_files\Struct.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\_files\TestClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\_files\TestClassComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\comparator\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\Chunk.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\Diff.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\Differ.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\LCS\LongestCommonSubsequence.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\LCS\MemoryEfficientLongestCommonSubsequenceImplementation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\LCS\TimeEfficientLongestCommonSubsequenceImplementation.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\Line.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\src\Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\tests\DifferTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\tests\LCS\TimeEfficientImplementationTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\tests\ParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\tests\fixtures\patch.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\diff\tests\fixtures\patch2.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\src\Console.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\src\Runtime.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\tests\ConsoleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\environment\tests\RuntimeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\src\Exporter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\exporter\tests\ExporterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\build\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\src\Blacklist.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\src\Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\src\Restorer.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\src\RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\src\Snapshot.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\tests\BlacklistTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\tests\_fixture\BlacklistedChildClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\tests\_fixture\BlacklistedClass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\tests\_fixture\BlacklistedImplementor.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\global-state\tests\_fixture\BlacklistedInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\src\Context.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\src\Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\src\InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\recursion-context\tests\ContextTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\ChangeLog.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\build\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\build\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\src\Version.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\src\autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\sebastian\version\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Environment.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Exception\Pass.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Exception\Stop.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Helper\Set.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Http\Cookies.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Http\Headers.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Http\Request.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Http\Response.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Http\Util.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Log.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\LogWriter.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Middleware.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Middleware\ContentTypes.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Middleware\Flash.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Middleware\MethodOverride.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Middleware\SessionCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Route.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Router.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\Slim.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\Slim\View.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\EnvironmentTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Helper\SetTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Http\CookiesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Http\HeadersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Http\RequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Http\ResponseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Http\UtilTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\LogTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\LogWriterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\MiddlewareTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Middleware\ContentTypesTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Middleware\FlashTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Middleware\MethodOverrideTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Middleware\PrettyExceptionsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\Middleware\SessionCookieTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\RouteTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\RouterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\SlimTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\ViewTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\slim\slim\tests\templates\test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Dumper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\DumpException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\ExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\ParseException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Inline.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\DumperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsAnchorAlias.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsBasicTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsBlockMapping.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsDocumentSeparator.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsErrorTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsFlowCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsFoldedScalars.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsNullsAndEmpties.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsSpecificationExamples.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsTypeTransfers.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\embededPhp.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\escapedCharacters.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\index.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfComments.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfCompact.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfMergeKey.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfObjects.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfQuotes.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\unindentedCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\InlineTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\ParseExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\ParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\YamlTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Unescaper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\jhicks\GIT\UTC\vendor\symfony\yaml\Symfony\Component\Yaml\phpunit.xml.dist" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/master.php" afterPath="$PROJECT_DIR$/app/config/master.php" />
+    </list>
+    <ignored path="UTC.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="UTC" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5288684" vertical-offset="1284" max-vertical-offset="1717">
+              <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slim.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/slim.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/master.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="527">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/master.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UTC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb51d646-bdb4-49d5-8c23-a1056ae9144c" name="Default" comment="" />
+      <created>1428929176184</created>
+      <option name="number" value="Default" />
+      <updated>1428929176184</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added login support">
+      <created>1428932775643</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1428932775643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="added login" />
+    <MESSAGE value="added login support" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login support" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/config/slim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/master.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="527">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5288684" vertical-offset="1284" max-vertical-offset="1717">
+          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
