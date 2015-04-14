@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
 
-    <title>Signin</title>
+    <title>Marketing URL Builder</title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
