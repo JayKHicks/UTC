@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 14, 2015, 12:41:11 PM
+    Author     : TreWhite
+*/
+body{
+	font-family: 'Futura Today',Helvetica,Arial,sans-serif;
+	overflow: hidden;
+	min-width: 1100px;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.25px;
+}
+.body-content{
+	background: #ffffff;
+	overflow-y: scroll;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.container{
+	margin: 0 auto;
+	padding: 0;
+}
+.container-wrapper{
+	width: 100%;
+}
+.container-wrapper.middle{
+	background: #f0f0f0;
+	padding: 30px 10px;
+	border-bottom: 1px solid #D5D5D5;
+}
+.col-lg-12{
+	padding: 0;
+	margin: 0;
+}
+.container-wrapper.bottom{
+	color: #ADADAD;
+	font: 12px 'Futura Today',Helvetica,Arial,sans-serif;
+	padding-top: 15px;
+}
+nav.navbar{
+	position: relative;
+	margin-bottom: 0;
+	padding: 0 15px;
+}
+a.navbar-brand{
+	padding: 0 10px;
+	font-size: 14px;
+	color: #fff!important;
+	font-family: 'Futura Today Demibold',Helvetica,Arial,sans-serif;
+	height: 50px;
+	line-height: 46px;
+	padding-right: 25px;
+}
+a.navbar-brand span{
+	vertical-align: middle;
+}
+a.navbar-brand .logo, .footer-image{
+	background-image: url("/img/logo.png");
+	background-size: 22px;
+	height: 23px;
+	width: 27px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-left{
+	float: left;
+}
+.footer-right{
+	float: right;
+}
+.footer-image{
+	background-size: 19px;
+	width: 22px;
+	background-image: url("/img/logo-lite.png")
+}
+h1{
+	margin: 10px 20px;
+	padding-bottom: 10px;
+	font-family: 'Futura Today Demibold',Helvetica,Arial,sans-serif;
+	color: #817E7E;
+	border-bottom: 1px solid #D5D5D5;
+	font-size: 14px;
+}
+.box-container {
+	background: #fff;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.form-horizontal{
+	padding: 10px 20px;
+}
+.form-horizontal button{
+	line-height: 10px;
+	color: #24AFB2;
+	background: #f0f0f0;
+	border-radius: 4px;
+	border: 1px solid #D5D5D5;
+	white-space: nowrap;
+	padding: 10px 22px;
+	font-size: 14px;
+}
+.form-horizontal .form-group label{
+	text-align: left;
+	color: #908989;
+	font-family: 'Futura Today',Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}
+.glyphicon{
+	color: #24AFB2;
+}
+.col-sm-1 {
+  text-align: center;
+}
+nav.navbar .user{
+	font-size: 12px;
+	color: #fff;
+	vertical-align: middle;
+	display: inline-block;
+}
+nav.navbar .user:after{
+	font-family: fontawesome;
+	content: '\f007';
+	padding-left: 3px;	
+}
+input#logout{
+	height: 20px;
+	line-height: 0px;
+	width: 62px;
+	text-align: center;
+	padding: 0;
+	margin-left: 10px;
+	background: #24AFB2;
+	font-family: "Futura Today";
+	font-size: 12px;
+	border: none;
+}
+nav .navbar-right{
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	line-height: 47px;
+}
+/*Font declarations*/
+@font-face{font-family:'Futura Today';src:url(/fonts/futura_today_normal.eot);src:url(/fonts/futura_today_normal.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_normal.woff) format('woff'),url(/fonts/futura_today_normal.ttf) format('truetype');font-style:normal}
+@font-face{font-family:'Futura Today DemiBold';src:url(/fonts/futura_today_demibold.eot);src:url(/fonts/futura_today_demibold.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_demibold.woff) format('woff'),url(/fonts/futura_today_demibold.ttf) format('truetype');font-style:normal}
+@font-face{font-family:'Futura Today Bold';src:url(/fonts/futura_today_bold.eot);src:url(/fonts/futura_today_bold.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_bold.woff) format('woff'),url(/fonts/futura_today_bold.ttf) format('truetype'),url(/fonts/futura_bold-webfont.svg#FuturaBold) format('svg');font-style:normal}
+@font-face{font-family:'Futura Today Light';src:url(/fonts/futura_today_light.eot);src:url(/fonts/futura_today_light.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_light.woff) format('woff'),url(/fonts/futura_today_light.ttf) format('truetype'),url(/fonts/futura_today_light.svg#FuturaLight) format('svg');font-style:light}
