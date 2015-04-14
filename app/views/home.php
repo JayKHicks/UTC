@@ -22,17 +22,6 @@
             /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
         }
 
-        .form-group div {
-            position:relative;
-            margin-right:15px;
-        }
-        .form-group div:after {
-            position:absolute;
-            content:'*';
-            color:red;
-            right:-10px;
-            top:0;
-        }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -90,7 +79,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h1>Simple Url Builder</h1>
-            <form>
+            <form class="form-horizontal">
                 <!==  =CONCATENATE(E1,
                 P1,if(isblank(U1),"REQUIRED FIELD",upper(U1)),
                 H1,if(isblank(I1),"REQUIRED FIELD",lower(I1)),
@@ -100,32 +89,162 @@
                 if(isblank(M1),"",L1&lower(M1)))
                 ==>
                 <div class="form-group">
-                    <label for="baseUrl">Base URL (E)<span style="color:red;">*</span></label>
-                    <input type="url" class="form-control" id="baseUrl" placeholder="Base Url" required="required">
+                    <label for="baseUrl" class="col-sm-2 control-label">Base URL (E)<span style="color:red;">*</span></label>
+                    <div class="col-sm-9">
+                        <input type="url" class="form-control" id="baseUrl" placeholder="Base Url" required="required">
+                    </div>
+                    <div class="col-sm-1">
+                        <a class="search" href="#">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </a>
+                    </div>
+
                 </div>
                 <div class="form-group">
-                    <label for="inputU">gps-source (U)<span style="color:red;">*</span></label>
-                    <input type="text" class="form-control" id="inputU" placeholder="gps-source" required="required">
+                    <label for="inputI" class="col-sm-2 control-label">utm_medium (I)<span style="color:red;">*</span></label>
+                    <div class="col-sm-9">
+                    <select class="form-control" id="inputI" placeholder="utm_medium" required="required">
+                        <option value=""></option>
+                        <option value="AFF">affiliate</option>
+                        <option value="BA">display</option>
+                        <option value="DML">direct-mail</option>
+                        <option value="EML">email</option>
+                        <option value="FSI">fsi</option>
+                        <option value="MOB">mobile</option>
+                        <option value="OFF">offline-other</option>
+                        <option value="OOH">out-of-home</option>
+                        <option value="PPC">ppc</option>
+                        <option value="PRT">print-ad</option>
+                        <option value="RAD">radio</option>
+                        <option value="SOC">social</option>
+                        <option value="TVN">tv</option>
+                        <option value="five">overlay</option>
+                    </select>
+                        </div>
+                    <div class="col-sm-1">
+                    <a class="add" href="#">
+                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </a>
+                    </div>
+                </div>
+
+                <!-- existing modal -->
+                <div id="existingModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Existing Values</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Do you want to save changes you made to document before closing?</p>
+                                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Modal -->
+                <div id="addModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Add </h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Do you want to save changes you made to document before closing?</p>
+                                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputK" class="col-sm-2 control-label">utm_source (K)<span style="color:red;">*</span></label>
+                    <div class="col-sm-9">
+                    <select class="form-control" id="inputK" placeholder="utm_source" required="required">
+                        <option value=""></option>
+                        <option value="one">exacttarget</option>
+                        <option value="two">Optln</option>
+                        <option value="three">NJTransit</option>
+                    </select>
+                    </div>
+                    <div class="col-sm-1">
+                        <a class="add" href="#">
+                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        </a>
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputI">utm_medium (I)<span style="color:red;">*</span></label>
-                    <input type="text" class="form-control" id="inputI" placeholder="utm_medium" required="required">
+                    <label for="inputG" class="col-sm-2 control-label">utm_campaign (G)<span style="color:red;">*</span></label>
+                    <div class="col-sm-9">
+                    <select class="form-control" id="inputG" placeholder="utm_campaign" required="required">
+                        <option value=""></option>
+                        <option value="one">341</option>
+                        <option value="two">AL1065</option>
+                        <option value="three">AP1702</option>
+                        <option value="one">AP1711</option>
+                        <option value="two">AP_1638</option>
+                        <option value="three">AR1050</option>
+                    </select>
+                        </div>
+                    <div class="col-sm-1">
+                    <a class="add" href="#">
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    </a>
+                        </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputK">utm_source (K)<span style="color:red;">*</span></label>
-                    <input type="text" class="form-control" id="inputK" placeholder="utm_source" required="required">
-                </div>
-                <div class="form-group">
-                    <label for="inputG">utm_campaign (G)<span style="color:red;">*</span></label>
-                    <input type="text" class="form-control" id="inputG" placeholder="utm_campaign" required="required">
-                </div>
-                <div class="form-group">
-                    <label for="inputO">utm_term (O)</label>
+                    <label for="inputO" class="col-sm-2 control-label">utm_term (O)</label>
+                    <div class="col-sm-9">
                     <input type="text" class="form-control" id="inputO" placeholder="utm_term">
+                        </div>
+                    <div class="col-sm-1">
+                    <a class="search" href="#">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </a>
+                        </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputP">utm_content (M)</label>
+                    <label for="inputP" class="col-sm-2 control-label">utm_content (M)</label>
+                    <div class="col-sm-9">
                     <input type="text" class="form-control" id="inputP" placeholder="utm_content">
+                        </div>
+                    <div class="col-sm-1">
+                    <a class="search" href="#">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </a>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputP" class="col-sm-2 control-label">(T)</label>
+                    <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputP" placeholder="T">
+                        </div>
+                    <div class="col-sm-1">
+                    <a class="search" href="#" id="inputP">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </a>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputU" class="col-sm-2 control-label">gps-source (U)</label>
+                    <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputU" placeholder="gps-source" required="required" readonly="readonly">
+                        </div>
+                    <!== Q.R.S.T ==>
+                    <!== Q=K ==>
+                    <!== R=I ==>
+                    <!== S=G ==>
+                    <!== K.I.G.T ==>
                 </div>
                 <div class="text-muted"><em><span style="color:red;">*</span> Indicates required field</em></div>
                 <br />
@@ -142,6 +261,30 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="3rdParty/jquery/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".btn").click(function(){
+            $("#existingModal").modal('show');
+        });
+
+        $(".btn").click(function(){
+            $("#existingModal").modal('show');
+        });
+
+        $(".add").on('click', function () {
+            //$('#existingModal').removeData('bs.modal');
+            //$('#existingModal').modal({remote: 'some/new/context?p=' + $(this).attr('buttonAttr') });
+            $('#addModal').modal('show');
+        });
+
+        $(".search").on('click', function () {
+            //$('#existingModal').removeData('bs.modal');
+            //$('#existingModal').modal({remote: 'some/new/context?p=' + $(this).attr('buttonAttr') });
+            $('#existingModal').modal('show');
+        });
+    });
+</script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
