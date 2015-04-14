@@ -43,9 +43,10 @@ $app = new \Slim\Slim($config['slim']);
 $app->add(new \Slim\Middleware\SessionCookie(array('secret' => 'myappsecret')));
 
 $log = $app->getLog();
+
 $authenticate = function($app) {
     return function() use ($app) {
-                if (!isset($_SESSION['user'])) {					
+                if (!isset($_SESSION['user'])) {
                     $_SESSION['urlRedirect'] = $app->request()->getPathInfo();
                     $app->flash('error', 'Login required');
                     $app->redirect('login');
