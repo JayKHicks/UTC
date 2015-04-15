@@ -62,7 +62,7 @@
                 </li>
             </ul>
 
-            <form class="navbar-form navbar-right" method="post" action="/logout">
+            <form class="navbar-form navbar-right" method="post" action="logout">
             <i class="glyphicon glyphicon-user white"></i>
             <font style="color:#FFFFFF;font-size:10px;padding-right:5px;"><?php echo $_SESSION['user']; ?></font>
             <input id="logout" type="submit" class="btn btn-success" value="Logout">
@@ -80,14 +80,20 @@
         <div class="col-lg-12">
             <h1>Simple Url Builder</h1>
             <form class="form-horizontal">
-                <!==  =CONCATENATE(E1,
+                <!--  =CONCATENATE(E1,
                 P1,if(isblank(U1),"REQUIRED FIELD",upper(U1)),
                 H1,if(isblank(I1),"REQUIRED FIELD",lower(I1)),
                 J1,if(isblank(K1),"REQUIRED FIELD",lower(K1)),
                 F1,if(isblank(G1),"REQUIRED FIELD",lower(G1)),
                 if(isblank(O1),"",N1&lower(O1)),
                 if(isblank(M1),"",L1&lower(M1)))
-                ==>
+
+                U = Q.R.S.T
+                Q=K
+                R=I
+                S=G
+                U = K.I.G.T
+                -->
                 <div class="form-group">
                     <label for="baseUrl" class="col-sm-2 control-label">Base URL (E)<span style="color:red;">*</span></label>
                     <div class="col-sm-9">
@@ -225,26 +231,21 @@
                         </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputP" class="col-sm-2 control-label">(T)</label>
+                    <label for="inputT" class="col-sm-2 control-label">gps-source ext (T)</label>
                     <div class="col-sm-9">
-                    <input type="text" class="form-control" id="inputP" placeholder="T">
-                        </div>
+                        <input type="text" class="form-control" id="inputT" placeholder="gps-source extension">
+                    </div>
                     <div class="col-sm-1">
-                    <a class="search" href="#" id="inputP">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </a>
-                        </div>
+                        <a class="search" href="#" id="inputP">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </a>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="inputU" class="col-sm-2 control-label">gps-source (U)</label>
                     <div class="col-sm-9">
-                    <input type="text" class="form-control" id="inputU" placeholder="gps-source" required="required" readonly="readonly">
-                        </div>
-                    <!== Q.R.S.T ==>
-                    <!== Q=K ==>
-                    <!== R=I ==>
-                    <!== S=G ==>
-                    <!== K.I.G.T ==>
+                        <input type="text" class="form-control" id="inputU" placeholder="gps-source" required="required" readonly="readonly">
+                    </div>
                 </div>
                 <div class="text-muted"><em><span style="color:red;">*</span> Indicates required field</em></div>
                 <br />

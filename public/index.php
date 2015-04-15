@@ -1,6 +1,6 @@
 <?php
-//session_cache_limiter(false);
-//session_start();
+session_cache_limiter(false);
+session_start();
 
 define("DS", DIRECTORY_SEPARATOR);
 //define("ROOT_PATH", realpath(dirname(__DIR__)) . DS);
@@ -40,7 +40,7 @@ $config['slim']['log.writer'] = $logger;
 
 $app = new \Slim\Slim($config['slim']);
 
-$app->add(new \Slim\Middleware\SessionCookie(array('secret' => 'myappsecret')));
+//$app->add(new \Slim\Middleware\SessionCookie(array('secret' => 'myappsecret')));
 
 $log = $app->getLog();
 
@@ -69,6 +69,7 @@ $app->get('/', $authenticate($app), function () use ($app,$log) {
 $app->get("/login", function () use ($app) {
     $flash = $app->view()->getData('flash');
     $error = '';
+
     if (isset($flash['error'])) {
         $error = $flash['error'];
     }
@@ -89,6 +90,7 @@ $app->get("/login", function () use ($app) {
     if (isset($flash['errors']['password'])) {
         $password_error = $flash['errors']['password'];
     }
+
     $app->render('login.php', array('error' => $error, 'email_value' => $email_value, 'email_error' => $email_error, 'password_error' => $password_error, 'urlRedirect' => $urlRedirect));
 })->name('login');
 
