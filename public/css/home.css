@@ -35,6 +35,7 @@ body{
 	background: #f0f0f0;
 	padding: 30px 10px;
 	border-bottom: 1px solid #D5D5D5;
+	overflow: hidden;
 }
 .col-lg-12{
 	padding: 0;
@@ -90,6 +91,19 @@ h1{
 	border-bottom: 1px solid #D5D5D5;
 	font-size: 14px;
 }
+h2{
+	margin: 0 0 5px 0;
+	padding-bottom: 10px 0;
+	font-family: 'Futura Today Demibold',Helvetica,Arial,sans-serif;
+	color: #817E7E;
+	border-bottom: 1px solid #D5D5D5;
+	font-size: 14px;
+}
+table h1{
+	margin: 0 10px 5px 5px;
+	padding: 10px 0;
+	color: #24AFB2;
+}
 .box-container {
 	background: #fff;
 	border-radius: 3px;
@@ -108,12 +122,29 @@ h1{
 	padding: 10px 22px;
 	font-size: 14px;
 }
+label {
+	padding-bottom: 5px;
+}
+table .form-group{
+	margin-left: -10px!important;
+}
+table .form-group.table-buttons{
+	padding-right: 25px;
+	text-align: right;
+}
+table .form-group.table-buttons button.delete{
+	margin-right: 5px;
+}
 .form-horizontal .form-group label{
 	text-align: left;
 	color: #908989;
 	font-family: 'Futura Today',Helvetica,Arial,sans-serif;
 	font-weight: normal;
 	font-size: 14px;
+}
+.form-horizontal.edit-url{
+	padding: 0;
+	margin-left: 5px;
 }
 .glyphicon{
 	color: #24AFB2;
@@ -149,6 +180,119 @@ nav .navbar-right{
 	margin: 0;
 	height: 50px;
 	line-height: 47px;
+	overflow: hidden;
+}
+.center-panel{
+	max-width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.center-panel .search-urls{
+	width: calc(25% - 30px);
+	float: left;
+	margin-right: 30px;
+	min-height: 739px;
+}
+.center-panel .create-url, .center-panel .view-urls{
+	width: calc(75%);
+	float: left;
+	margin-bottom: 30px;
+}
+a.collapsed h1{
+	border: none;
+	padding-bottom: 0;
+}
+.collapsable a h1:after{
+	font-family: fontawesome;
+	float: right;
+	font-size: 18px;
+}
+.collapsable a.collapsed h1:after{
+	content: "\f103";
+}
+.collapsable a h1:after{
+	content: "\f102";
+}
+tr.edit-form{
+	border-right: 1px solid #ddd;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+tr[aria-expanded="true"]{
+	border-left: 4px solid #24AFB2;
+}
+tr[aria-expanded="false"]{
+	border-left: 4px solid transparent;
+}
+tr{
+	cursor: default;
+	color: rgba(153, 153, 153, 1);
+	border-left: 4px solid transparent;
+}
+tr i.fa{
+	color: rgba(153, 153, 153, 0.7);
+}
+tr.collapsed{
+	cursor: pointer;
+	color: #575757;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+tr.collapsed i.fa{
+	color: rgba(87, 87, 87, 0.9);
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+tr.collapsed:hover i.fa, tr.collapsed.open i.fa{
+	color: #24AFB2;
+}
+tr.collapsed:hover{
+	color: #24AFB2;
+}
+tr.collapsed.open{
+	border-left: 4px solid #24AFB2;
+	border-bottom: 1px solid #24AFB2;
+	color: #24AFB2;
+}
+tbody tr.odd{
+	background-color: #f9f9f9;
+}
+a, a:hover{
+	text-decoration: none!important;
+}
+a:hover h1{
+	color: #24AFB2;
+}
+.center-panel .view-urls{
+	min-height: 654px;
+}
+select{
+	text-overflow: ellipsis;
+}
+.table-responsive{
+	padding: 0 20px;
+}
+th {
+	color: #868181;
+	font-weight: normal;
+}
+td{
+	font-size: 13px;
+}
+i.fa{
+	color: #24AFB2;
+}
+td i.fa{
+
 }
 /*Font declarations*/
 @font-face{font-family:'Futura Today';src:url(/fonts/futura_today_normal.eot);src:url(/fonts/futura_today_normal.eot?#iefix) format('embedded-opentype'),url(/fonts/futura_today_normal.woff) format('woff'),url(/fonts/futura_today_normal.ttf) format('truetype');font-style:normal}

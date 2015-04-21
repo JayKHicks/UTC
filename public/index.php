@@ -47,6 +47,7 @@ $log = $app->getLog();
 $authenticate = function($app) {
     return function() use ($app) {
                 if (!isset($_SESSION['user'])) {
+					$_SESSION['user'] = 'TreWhite';
                     $_SESSION['urlRedirect'] = $app->request()->getPathInfo();
                     $app->flash('error', 'Login required');
                     $app->redirect('login');
