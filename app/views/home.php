@@ -1,3 +1,4 @@
+<?php $adminUser = true; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UTC - Landing Page</title>
+    <title>UCT - Landing Page</title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
@@ -46,19 +47,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">UTC</a>
+            <a class="navbar-brand" href="#">UCT</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Market</a>
                 </li>
             </ul>
 
@@ -94,22 +89,72 @@
                 S=G
                 U = K.I.G.T
                 -->
+
                 <div class="form-group">
-                    <label for="baseUrl" class="col-sm-2 control-label">Base URL (E)<span style="color:red;">*</span></label>
+                    <label for="baseUrl" class="col-sm-2 control-label">Base URL<span style="color:red;">*</span></label>
                     <div class="col-sm-9">
-                        <input type="url" class="form-control" id="baseUrl" placeholder="Base Url" required="required">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="BaseURL" placeholder="Base URL" readonly="readonly">
+                            <div class="input-group-btn">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="collapse" data-target="#demo"><span class="caret"></span></button>
+                                <!--
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                -->
+                            </div>
+                        </div>
                     </div>
                     <div class="col-sm-1">
-                        <a class="search" href="#">
-                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                        </a>
+                        <?php if ($adminUser) {?>
+                            <a class="add" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                        <?php }?>
                     </div>
-
                 </div>
+
+                <div id="demo" class="collapse out">
+                    <div class="col-sm-2">&nbsp;</div>
+                    <div class="panel panel-default col-sm-9">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="inputK" class="col-sm-2 control-label">Market<span style="color:red;">*</span></label>
+                                <div class="col-sm-10">
+                                    <select class="form-control" id="inputK" placeholder="Market" required="required">
+                                        <option value=""></option>
+                                        <option value="one">exacttarget</option>
+                                        <option value="two">Optln</option>
+                                        <option value="three">NJTransit</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputK" class="col-sm-2 control-label">Host<span style="color:red;">*</span></label>
+                                <div class="col-sm-10">
+                                    <select class="form-control" id="inputK" placeholder="URL Host" required="required">
+                                        <option value=""></option>
+                                        <option value="one">exacttarget</option>
+                                        <option value="two">Optln</option>
+                                        <option value="three">NJTransit</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputK" class="col-sm-2 control-label">Path<span style="color:red;">*</span></label>
+                                <div class="col-sm-10">
+                                    <select class="form-control" id="inputK" placeholder="URL Path" required="required">
+                                        <option value=""></option>
+                                        <option value="one">exacttarget</option>
+                                        <option value="two">Optln</option>
+                                        <option value="three">NJTransit</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="form-group">
-                    <label for="inputI" class="col-sm-2 control-label">utm_medium (I)<span style="color:red;">*</span></label>
+                    <label for="inputI" class="col-sm-2 control-label">Campaign Medium<span style="color:red;">*</span></label>
                     <div class="col-sm-9">
-                    <select class="form-control" id="inputI" placeholder="utm_medium" required="required">
+                    <select class="form-control" id="inputI" placeholder="Campaign Medium" required="required">
                         <option value=""></option>
                         <option value="AFF">affiliate</option>
                         <option value="BA">display</option>
@@ -129,7 +174,9 @@
                         </div>
                     <div class="col-sm-1">
                     <a class="add" href="#">
-                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        <?php if ($adminUser) {?>
+                            <a class="add" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                        <?php }?>
                     </a>
                     </div>
                 </div>
@@ -172,11 +219,30 @@
                         </div>
                     </div>
                 </div>
+                <!-- URL Modal -->
+                <div id="urlModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">URL Builder </h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Do you want to save changes you made to document before closing?</p>
+                                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="form-group">
-                    <label for="inputK" class="col-sm-2 control-label">utm_source (K)<span style="color:red;">*</span></label>
+                    <label for="inputK" class="col-sm-2 control-label">Campaign Source<span style="color:red;">*</span></label>
                     <div class="col-sm-9">
-                    <select class="form-control" id="inputK" placeholder="utm_source" required="required">
+                    <select class="form-control" id="inputK" placeholder="Campaign Source" required="required">
                         <option value=""></option>
                         <option value="one">exacttarget</option>
                         <option value="two">Optln</option>
@@ -185,14 +251,16 @@
                     </div>
                     <div class="col-sm-1">
                         <a class="add" href="#">
-                            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                            <?php if ($adminUser) {?>
+                                <a class="add" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                            <?php }?>
                         </a>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputG" class="col-sm-2 control-label">utm_campaign (G)<span style="color:red;">*</span></label>
+                    <label for="inputG" class="col-sm-2 control-label">Campaign Name<span style="color:red;">*</span></label>
                     <div class="col-sm-9">
-                    <select class="form-control" id="inputG" placeholder="utm_campaign" required="required">
+                    <select class="form-control" id="inputG" placeholder="Campaign Name" required="required">
                         <option value=""></option>
                         <option value="one">341</option>
                         <option value="two">AL1065</option>
@@ -204,52 +272,70 @@
                         </div>
                     <div class="col-sm-1">
                     <a class="add" href="#">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                        <?php if ($adminUser) {?>
+                            <a class="add" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                        <?php }?>
                     </a>
                         </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputO" class="col-sm-2 control-label">utm_term (O)</label>
+                    <label for="inputO" class="col-sm-2 control-label">Campaign Term</label>
                     <div class="col-sm-9">
-                    <input type="text" class="form-control" id="inputO" placeholder="utm_term">
-                        </div>
-                    <div class="col-sm-1">
-                    <a class="search" href="#">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </a>
-                        </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputP" class="col-sm-2 control-label">utm_content (M)</label>
-                    <div class="col-sm-9">
-                    <input type="text" class="form-control" id="inputP" placeholder="utm_content">
-                        </div>
-                    <div class="col-sm-1">
-                    <a class="search" href="#">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </a>
-                        </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputT" class="col-sm-2 control-label">gps-source ext (T)</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="inputT" placeholder="gps-source extension">
+                        <select class="form-control" id="inputK" placeholder="Campaign Term" required="required">
+                            <option value=""></option>
+                            <option value="one">exacttarget</option>
+                            <option value="two">Optln</option>
+                            <option value="three">NJTransit</option>
+                        </select>
                     </div>
                     <div class="col-sm-1">
-                        <a class="search" href="#" id="inputP">
-                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    <a class="search" href="#">
+                        <?php if ($adminUser) {?>
+                            <a class="add" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                        <?php }?>
+                    </a>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputP" class="col-sm-2 control-label">Campaign Content</label>
+                    <div class="col-sm-9">
+                        <select class="form-control" id="inputK" placeholder="Path" required="required">
+                            <option value=""></option>
+                            <option value="one">exacttarget</option>
+                            <option value="two">Optln</option>
+                            <option value="three">NJTransit</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1">
+                    <a class="search" href="#">
+                        <?php if ($adminUser) {?>
+                            <a class="add" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                        <?php }?>
+                    </a>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputU" class="col-sm-2 control-label">gps-source<span style="color:red;">*</span></label>
+                    <div class="col-sm-9">
+                        <select class="form-control" id="inputK" placeholder="gps-source" required="required">
+                            <option value=""></option>
+                            <option value="one">exacttarget</option>
+                            <option value="two">Optln</option>
+                            <option value="three">NJTransit</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1">
+                        <a class="search" href="#">
+                            <?php if ($adminUser) {?>
+                                <a class="add" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                            <?php }?>
                         </a>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputU" class="col-sm-2 control-label">gps-source (U)</label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="inputU" placeholder="gps-source" required="required" readonly="readonly">
                     </div>
                 </div>
                 <div class="text-muted"><em><span style="color:red;">*</span> Indicates required field</em></div>
                 <br />
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" disabled>Submit</button>
+                <button class="btn btn-primary">Clear</button>
 
             </form>
         </div>
@@ -265,24 +351,24 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".btn").click(function(){
-            $("#existingModal").modal('show');
-        });
-
-        $(".btn").click(function(){
-            $("#existingModal").modal('show');
-        });
-
         $(".add").on('click', function () {
             //$('#existingModal').removeData('bs.modal');
             //$('#existingModal').modal({remote: 'some/new/context?p=' + $(this).attr('buttonAttr') });
             $('#addModal').modal('show');
         });
 
+        /**
         $(".search").on('click', function () {
             //$('#existingModal').removeData('bs.modal');
             //$('#existingModal').modal({remote: 'some/new/context?p=' + $(this).attr('buttonAttr') });
             $('#existingModal').modal('show');
+        });
+        */
+
+        $(".url").on('click', function () {
+            //$('#existingModal').removeData('bs.modal');
+            //$('#existingModal').modal({remote: 'some/new/context?p=' + $(this).attr('buttonAttr') });
+            $('#urlModal').modal('show');
         });
     });
 </script>
