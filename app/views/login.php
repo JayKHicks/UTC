@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
 
-    <title>Signin</title>
+    <title>Marketing URL Builder</title>
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
@@ -26,33 +26,33 @@
 </head>
 
 <body>
-
-<div class="container">
-
-    <form id="login" action="" method="post" class="form-signin" role="form">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <?php if (!empty($error)) {
-            echo '<div class="alert alert-danger" role="alert">'.$error.'</div>';
-        }?>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" value="remember-me"> Remember me
-            </label>
-        </div>
-        <button name="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    </form>
-
-</div> <!-- /container -->
-
+	<div class="container">
+		<form id="login" action="" method="post" class="form-signin" role="form">
+			<h2 class="form-signin-heading">
+				<div class="logo"></div>
+				<div class="product-name">marketing url builder</div>
+			</h2>
+			<?php if (!empty($error)) {
+				//echo '<div class="alert alert-danger" role="alert">'.$error.'</div>';
+			}?>
+			<input type="text" class="form-control short user" disabled>
+			<input type="text" name="inputEmail" id="inputUser" placeholder="User" class="form-control" required autofocus>
+			<input type="text" class="form-control short password" disabled>
+			<input type="password" name="inputPassword" id="inputPassword" placeholder="Password" class="form-control" required>
+			<!--<div class="checkbox">
+				<label>
+					<input type="checkbox" value="remember-me"> Remember me
+				</label>
+			</div>-->
+			<!--<button name="submit" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>-->
+			<input type="submit" class="form-control submit" value="">
+		</form>
+	</div> <!-- /container -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="3rdParty/jquery/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!--<script src="js/ie10-viewport-bug-workaround.js"></script>-->
 </body>
 </html>
