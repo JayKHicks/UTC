@@ -28,6 +28,6 @@
     "phpunit/phpunit": "4.8.*@dev"
   },
   "autoload": {
-    "classmap": ["app/lib/GMTI/UTC"]
+    "classmap": ["app/lib/GMTI/UCT"]
   }
 }

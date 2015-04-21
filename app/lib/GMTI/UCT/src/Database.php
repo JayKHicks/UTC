@@ -6,7 +6,7 @@
  * Time: 4:13 PM
  */
 
-namespace DCD;
+namespace UCT;
 
 class Database extends \PDO
 {
