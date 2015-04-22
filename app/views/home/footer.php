@@ -24,7 +24,7 @@
 	var urlBuilderConfig = {
 		data: {
 			columns: [
-				"URL",
+				"",
 				""
 			],
 			data: [
@@ -56,7 +56,31 @@
 				}
 			]
 		},
-		markets: ['PIND']
+		markets: ['PIND'],
+		editFields:  {
+			'URL': [
+				[
+					{label:'Tracking URL',classname:'tracking',type:'text',size:'11',attr:'readonly'}
+				],
+				[
+					{label:'Market',classname:'market',type:'select',size:'5'},
+					{label:'Host',classname:'host',type:'select',size:'3'},
+					{label:'Path',classname:'path',type:'select',size:'3'}
+				]
+			],
+			'Campaign Tracking Codes': [
+				[
+					{label:'Medium',classname:'utml_medium',type:'select',size:'3'},
+					{label:'Source',classname:'utml_source',type:'select',size:'3'},
+					{label:'Name',classname:'utml_name',type:'select',size:'3'}
+				],
+				[
+					{label:'Term',classname:'utml_term',type:'select',size:'3'},
+					{label:'Content',classname:'utml_content',type:'select',size:'3'},
+					{label:'GPS Source',classname:'gps_source',type:'select',size:'3'}
+				]
+			]
+		}
 	}
 	$(document).ready(function(){
 		var testData = [{}]

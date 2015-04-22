@@ -30,72 +30,25 @@ example: $("#urlTableTemplate").tmpl(data).appendTo("#urlTable")
 				<td colspan="${columnCount}">
 					<div class="accordion-body collapse" id="divItem${id}">
 						<form class="edit-url form-horizontal">
-							<h1>URLs</h1>
-							<div class="form-group">
-							<div class="col-sm-11 tracking">
-								<label class="control-label">Tracking URL</label>
-								<input type="text" class="form-control">
-							</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-11 vanity">
-									<label class="control-label">Vanity URL</label>
-									<input type="text" class="form-control">
+							{{each(key,val) urlBuilderConfig['editFields']}}
+							<h1 class="line"><span>${key}</span></h1>
+								{{each(group,item) val}}
+								<div class="form-group">
+									{{each item}}
+									<div class="col-sm-${size}">
+										<label class="control-label ${classname}">${label}</label>
+											{{if type === 'select'}}
+											<select class="form-control">
+												<option val="">--</option>
+											</select>
+											{{else}}
+											<input type="text" class="form-control" ${attr}>
+											{{/if}}
+									</div>
+									{{/each}}
 								</div>
-							</div>
-							<h1>Tracking Codes</h1>
-							<div class="form-group">
-								<div class="col-sm-2 utml_compaign">
-									<label class="control-label">Utml_campaign</label>
-									<select class="form-control">
-										<option val="">--</option>
-										<option>val1</option>
-										<option>val2</option>
-									</select>
-								</div>
-								<div class="col-sm-2 utml_medium">
-									<label class="control-label">Utml_medium</label>
-									<select class="form-control">
-										<option val="">--</option>
-										<option>val1</option>
-										<option>val2</option>
-									</select>
-								</div>
-								<div class="col-sm-2 utml_source">
-									<label class="control-label">Utml_source</label>
-									<select class="form-control">
-										<option val="">--</option>
-										<option>val1</option>
-										<option>val2</option>
-									</select>
-								</div>
-								<div class="col-sm-2 utml_content">
-									<label class="control-label">Utml_content</label>
-									<select class="form-control">
-										<option val="">--</option>
-										<option>val1</option>
-										<option>val2</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-2 utml_term">
-									<label class="control-label">Utml_term</label>
-									<select class="form-control">
-										<option val="">--</option>
-										<option>val1</option>
-										<option>val2</option>
-									</select>
-								</div>
-								<div class="col-sm-2 gps_source">
-									<label class="control-label">GPS Source</label>
-									<select class="form-control">
-										<option val="">--</option>
-										<option>val1</option>
-										<option>val2</option>
-									</select>
-								</div>
-							</div>
+								{{/each}}
+							{{/each}}
 							<div class="form-group table-buttons">
 								<button type="submit" class="btn btn-primary delete">Delete</button>
 								<button type="submit" class="btn btn-primary submit">Submit</button>

@@ -99,10 +99,25 @@ h2{
 	border-bottom: 1px solid #D5D5D5;
 	font-size: 14px;
 }
-table h1{
-	margin: 0 10px 5px 5px;
+.form-horizontal h1{
+	margin: 0 15px 5px 5px;
 	padding: 10px 0;
 	color: #24AFB2;
+}
+.form-horizontal h1.line{
+	margin-left: 0px!important;
+}
+h1 span {
+	background: #fff;
+	padding: 0 15px 0 0;
+	margin: 0;
+}
+h1.line{
+	background: -webkit-linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
+	background: -o-linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
+	background: -moz-linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
+	background: linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
+	border: none;
 }
 .box-container {
 	background: #fff;
@@ -129,18 +144,26 @@ table .form-group{
 	margin-left: -10px!important;
 }
 table .form-group.table-buttons{
-	padding-right: 25px;
 	text-align: right;
+	padding: 25px 25px 0 0;
 }
-table .form-group.table-buttons button.delete{
+.form-horizontal button:hover{
+	background: #24AFB2;
+	color: #fff;
+	border: 1px solid #D5D5D5;
+}
+.form-horizontal button.delete{
 	margin-right: 5px;
+}
+.form-control{
+	font-size: 13px;
 }
 .form-horizontal .form-group label{
 	text-align: left;
 	color: #908989;
 	font-family: 'Futura Today',Helvetica,Arial,sans-serif;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 13px;
 }
 .form-horizontal.edit-url{
 	padding: 0;
@@ -206,6 +229,7 @@ a.collapsed h1{
 	font-family: fontawesome;
 	float: right;
 	font-size: 18px;
+	margin-right: 15px;
 }
 .collapsable a.collapsed h1:after{
 	content: "\f103";
@@ -257,6 +281,7 @@ tr.collapsed:hover i.fa, tr.collapsed.open i.fa{
 }
 tr.collapsed:hover{
 	color: #24AFB2;
+	border-left: 4px solid #24AFB2;
 }
 tr.collapsed.open{
 	border-left: 4px solid #24AFB2;
@@ -265,6 +290,35 @@ tr.collapsed.open{
 }
 tbody tr.odd{
 	background-color: #f9f9f9;
+}
+h1.title:before{
+	font-family: fontawesome;
+	padding-right: 5px;
+	font-size: 14px;	
+}
+.create-url h1.title:after{
+	margin-right: 0!important;
+}
+.create-url h1.title{
+	margin-right: 35px
+}
+.create-url h1.title:before{
+	content: "\f055";
+}
+.search-urls h1.title:before{
+	content: "\f002";
+}
+.view-urls h1.title:before{
+	content: "\f0c1";
+}
+.view-urls h1.title{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+form#createForm button#create{
+	margin: 10px 0;
+	float: right;
 }
 a, a:hover{
 	text-decoration: none!important;
