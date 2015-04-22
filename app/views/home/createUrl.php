@@ -19,13 +19,13 @@
 					),
 					'Campaign Tracking Codes' => array(
 						array(
+							array('label' => 'Name', 'classname' => 'utml_name', 'type' => 'Select', 'size' => 3),
 							array('label' => 'Medium', 'classname' => 'utml_medium', 'type' => 'Select', 'size' => 3),
-							array('label' => 'Source', 'classname' => 'utml_source', 'type' => 'Select', 'size' => 3),
-							array('label' => 'Name', 'classname' => 'utml_name', 'type' => 'Select', 'size' => 3)
+							array('label' => 'Source', 'classname' => 'utml_source', 'type' => 'Select', 'size' => 3)
 						),
 						array(
-							array('label' => 'Term', 'classname' => 'utml_term', 'type' => 'Select', 'size' => 3),
 							array('label' => 'Content', 'classname' => 'utml_content', 'type' => 'Select', 'size' => 3),
+							array('label' => 'Term', 'classname' => 'utml_term', 'type' => 'Select', 'size' => 3),
 							array('label' => 'GPS Source', 'classname' => 'gps_source', 'type' => 'Select', 'size' => 3)
 						)
 					)
