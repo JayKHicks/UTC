@@ -91,18 +91,43 @@ h1{
 	border-bottom: 1px solid #D5D5D5;
 	font-size: 14px;
 }
-h2{
-	margin: 0 0 5px 0;
-	padding-bottom: 10px 0;
-	font-family: 'Futura Today Demibold',Helvetica,Arial,sans-serif;
-	color: #817E7E;
-	border-bottom: 1px solid #D5D5D5;
-	font-size: 14px;
+.edit-form-field{
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(144, 137, 137, 0.43);
+	color: #908989;
+	border-left: 4px solid #24AFB2;
+	margin: 1px 0;
+}
+.edit-form-field label{
+	font-weight: normal;
+	width: 180px;
+	text-align: left!important;
+}
+.edit-form-field label span.title{
+	color: #24AFB2;
+}
+.edit-form-field .btn-group{
+	padding-left: 10px;
+}
+.edit-form-field button{
+	font-weight: normal!important;
+	text-shadow: none;
+}
+.edit-form-field-wrapper{
+	padding: 7px 0;
+	overflow: hidden;
+}
+.edit-form-field button.submit {
+	width: 92px;
 }
 .form-horizontal h1{
 	margin: 0 15px 5px 5px;
 	padding: 10px 0;
 	color: #24AFB2;
+}
+.add-submit, .delete-submit{
+	text-align: right;
 }
 .form-horizontal h1.line{
 	margin-left: 0px!important;
@@ -113,10 +138,10 @@ h1 span {
 	margin: 0;
 }
 h1.line{
-	background: -webkit-linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
-	background: -o-linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
-	background: -moz-linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
-	background: linear-gradient(top, #fff 0%, #fff 50%, rgba(36, 175, 178, 0.5) 50%, rgba(36, 175, 178, 0.5) 50.5%, #fff 50.5%, #fff 100%);
+	background: -webkit-linear-gradient(top, #fff 0%, #fff 50%, #24AFB2 50%, #24AFB2 51%, #fff 51%, #fff 100%);
+	background: -o-linear-gradient(top, #fff 0%, #fff 50%, #24AFB2 50%, #24AFB2 51%, #fff 51%, #fff 100%);
+	background: -moz-linear-gradient(top, #fff 0%, #fff 50%, #24AFB2 50%, #24AFB2 51%, #fff 51%, #fff 100%);
+	background: linear-gradient(top, #fff 0%, #fff 50%, #24AFB2 50%, #24AFB2 51%, #fff 51%, #fff 100%);
 	border: none;
 }
 .box-container {
@@ -140,6 +165,17 @@ h1.line{
 label {
 	padding-bottom: 5px;
 }
+label.accordian-toggle:after{
+	font-family: fontawesome;
+	content: "\f044";
+	color: #908989;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+label.accordian-toggle:hover, label.accordian-toggle:hover:after, label.accordian-toggle[aria-expanded="true"], label.accordian-toggle[aria-expanded="true"]:after{
+	color: #24AFB2!important;
+	cursor: pointer;
+}
 table .form-group{
 	margin-left: -10px!important;
 }
@@ -155,8 +191,21 @@ table .form-group.table-buttons{
 .form-horizontal button.delete{
 	margin-right: 5px;
 }
+.btn-toggle .btn{
+	color: #999!important;
+}
+.btn-toggle .btn.active{
+	color: #24AFB2!important;
+}
+.btn-toggle .btn:hover{
+	background: #24AFB2!important;
+	color: #fff!important;
+}
 .form-control{
 	font-size: 13px;
+}
+.inline{
+	display: inline-block;
 }
 .form-horizontal .form-group label{
 	text-align: left;
@@ -221,21 +270,25 @@ nav .navbar-right{
 	float: left;
 	margin-bottom: 30px;
 }
-a.collapsed h1{
+h1.collapsed{
 	border: none;
 	padding-bottom: 0;
 }
-.collapsable a h1:after{
+.create-url h1.title:after{
 	font-family: fontawesome;
 	float: right;
 	font-size: 18px;
 	margin-right: 15px;
 }
-.collapsable a.collapsed h1:after{
+.create-url h1.title.collapsed:after{
 	content: "\f103";
 }
-.collapsable a h1:after{
+.create-url h1.title:after{
 	content: "\f102";
+}
+.create-url h1.title:hover, .create-url h1.title:hover:after{
+	color: #24AFB2;
+	cursor: pointer;
 }
 tr.edit-form{
 	border-right: 1px solid #ddd;

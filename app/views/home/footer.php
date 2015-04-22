@@ -18,7 +18,7 @@
 <script src="/js/jquery.tmpl.min.js"></script>
 <script src="/js/home.js"></script>
 
-<?php include_once ROOT_PATH . '/app/views/home/jqueryTemplates.php' ?>
+<?php include_once ROOT_PATH . '/app/views/home/templates/jqueryTemplates.php' ?>
 
 <script type="text/javascript">
 	var urlBuilderConfig = {
