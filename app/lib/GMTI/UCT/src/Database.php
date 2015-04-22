@@ -50,15 +50,6 @@ class Database extends \PDO
         } catch (\PDOException $e) {
             $logText = "Message:(" . $e->getMessage() . ") problem with query ($sql)";
             //$this->log->logError($logText);
-
-            /*
-             throw new Exception(
-                __METHOD__ . 'Exception Raised for sql: ' . var_export($sql, true) .
-                ' Params: ' . var_export($params, true) .
-                ' Error_Info: ' . var_export($this->errorInfo(), true),
-                0,
-                $e);
-            */
         }
 
         return $ret;

@@ -46,12 +46,11 @@ $log = $app->getLog();
 
 $authenticate = function($app) {
     return function() use ($app) {
-                if (!isset($_SESSION['user'])) {
-					$_SESSION['user'] = 'TreWhite';
-                    $_SESSION['urlRedirect'] = $app->request()->getPathInfo();
-                    $app->flash('error', 'Login required');
-                    $app->redirect('login');
-                }
+        if (!isset($_SESSION['user'])) {
+            $_SESSION['urlRedirect'] = $app->request()->getPathInfo();
+            $app->flash('error', 'Login required');
+            $app->redirect('login');
+        }
     };
 };
 
@@ -66,6 +65,8 @@ $app->get('/', $authenticate($app), function () use ($app,$log) {
     $data = array();
     $app->render('home.php', $data);
 })->name('home');
+
+require APP_PATH.'routes/api.php';
 
 $app->get("/login", function () use ($app) {
     $flash = $app->view()->getData('flash');
