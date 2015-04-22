@@ -20,6 +20,6 @@ define("TBL_POSITION", "positions");
 define("LOGGING_LEVEL", 7);
 define("LOGGING_DIR", APP_PATH."logs/");
 //version
-define("DCD_VERSION", "20.0");
+define("UCT_VERSION", "1.0");
 
 
