@@ -1,7 +1,7 @@
 <div class="container box-container search-urls">
 	<div class="row">
 		<div class="col-lg-12">
-			<h1>Search Filters</h1>
+			<h1 class="title">Search Filters</h1>
 			<form id="searchForm" class="form-horizontal">
 				<div class="form-group">
 					<div class="col-sm-12">
@@ -19,7 +19,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="searchCriteria1" class="col-sm-12 control-label">Utml Campaign</label>
+					<label for="searchCriteria1" class="col-sm-12 control-label">Campaign Name</label>
 					<div class="col-sm-12">
 						<select class="form-control" id="utml_campaign">
 							<option value="">--</option>
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="searchCriteria2" class="col-sm-12 control-label">Utml Medium</label>
+					<label for="searchCriteria2" class="col-sm-12 control-label">Campaign Medium</label>
 					<div class="col-sm-12">
 						<select class="form-control" id="utml_medium">
 							<option value="">--</option>
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="searchCriteria3" class="col-sm-12 control-label">Utml Source</label>
+					<label for="searchCriteria3" class="col-sm-12 control-label">Campaign Source</label>
 					<div class="col-sm-12">
 						<select class="form-control" id="utml_source">
 							<option value="">--</option>
@@ -49,7 +49,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="searchCriteria4" class="col-sm-12 control-label">Utml Content</label>
+					<label for="searchCriteria4" class="col-sm-12 control-label">Campaign Content</label>
 					<div class="col-sm-12">
 						<select class="form-control" id="utml_content">
 							<option value="">--</option>
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="searchCriteria4" class="col-sm-12 control-label">Utml Term</label>
+					<label for="searchCriteria4" class="col-sm-12 control-label">Campaign Term</label>
 					<div class="col-sm-12">
 						<select class="form-control" id="utml_term">
 							<option value="">--</option>
