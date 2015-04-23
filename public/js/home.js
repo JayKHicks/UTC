@@ -11,6 +11,7 @@ var urlBuilder = {};
 
 		events: function(){
 			$('#urlTable').delegate('tr.item.collapsed','click',this.clickRow)
+			$('.edit-form-field .btn-toggle button').on('click', this.toggleEdit)
 		},
 
 		elemConstants: function(options){
@@ -40,6 +41,29 @@ var urlBuilder = {};
 			if(!$(this).next().hasClass('collapsing')){
 				$(this).toggleClass('open')
 			}
+		},
+		
+		toggleEdit: function(){
+			if(!$(this).hasClass('active')){
+				var parent = this.parentNode,
+					uncheck = $(parent).find('button.active'),
+					check = $(this),
+					editForm = $(parent.parentNode),
+					addItems = editForm.find('.add-item, .add-submit'),
+					deleteItems = editForm.find('.delete-item, .delete-submit');
+				uncheck.removeClass('active')
+				check.addClass('active')
+				
+				if(check.hasClass('delete')){
+					addItems.addClass('hidden')
+					deleteItems.removeClass('hidden')
+				}
+				else{
+					deleteItems.addClass('hidden')
+					addItems.removeClass('hidden')
+				}
+			}
+			return false;
 		},
 		
 		applyTemplate: function(template,data,element, arg){

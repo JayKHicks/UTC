@@ -3,81 +3,57 @@
 		<div class="col-lg-12">
 			<h1 class="title">Search Filters</h1>
 			<form id="searchForm" class="form-horizontal">
-				<div class="form-group">
-					<div class="col-sm-12">
-						<select class="form-control" id="siteCode">
-							<option value="">All Markets</option>
-							<option value="PIND">Indianapolis Star</option>
-							<option value="PROC">Rochester Democrat & Chronicle</option>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<!--<label for="baseUrl" class="col-sm-12 control-label">URL</label>-->
-					<div class="col-sm-12">
-						<input type="url" class="form-control" id="baseUrl" placeholder="URL (full or partial)">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="searchCriteria1" class="col-sm-12 control-label">Campaign Name</label>
-					<div class="col-sm-12">
-						<select class="form-control" id="utml_campaign">
-							<option value="">--</option>
-							<option value="Val1">Value1</option>
-							<option value="Val2">Value2</option>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="searchCriteria2" class="col-sm-12 control-label">Campaign Medium</label>
-					<div class="col-sm-12">
-						<select class="form-control" id="utml_medium">
-							<option value="">--</option>
-							<option value="Val1">Value1</option>
-							<option value="Val2">Value2</option>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="searchCriteria3" class="col-sm-12 control-label">Campaign Source</label>
-					<div class="col-sm-12">
-						<select class="form-control" id="utml_source">
-							<option value="">--</option>
-							<option value="Val1">Value1</option>
-							<option value="Val2">Value2</option>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="searchCriteria4" class="col-sm-12 control-label">Campaign Content</label>
-					<div class="col-sm-12">
-						<select class="form-control" id="utml_content">
-							<option value="">--</option>
-							<option value="Val1">Value1</option>
-							<option value="Val2">Value2</option>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="searchCriteria4" class="col-sm-12 control-label">Campaign Term</label>
-					<div class="col-sm-12">
-						<select class="form-control" id="utml_term">
-							<option value="">--</option>
-							<option value="Val1">Value1</option>
-							<option value="Val2">Value2</option>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="searchCriteria4" class="col-sm-12 control-label">GPS Source</label>
-					<div class="col-sm-12">
-						<select class="form-control" id="gps_source">
-							<option value="">--</option>
-							<option value="Val1">Value1</option>
-							<option value="Val2">Value2</option>
-						</select>
-					</div>
-				</div>
+			<?php
+			$searchFields = array(
+				'fields' => array(
+					array(
+						'formGroup' => array(
+							array('classname' => 'market', 'type' => 'Select', 'size' => 12)
+						)
+					),
+					array(
+						'formGroup' => array(
+							array('classname' => 'url', 'type' => 'Text', 'size' => 12, 'attr' => 'placeholder="URL (full or partial)"')
+						)
+					),
+					array(
+						'formGroup' => array(
+							array('label' => 'Campaign Name', 'classname' => 'utm_name', 'type' => 'Select', 'size' => 12)
+						)
+					),
+					array(
+						'formGroup' => array(
+							array('label' => 'Campaign Medium', 'classname' => 'utm_medium', 'type' => 'Select', 'size' => 12)
+						)
+					),
+					array(
+						'formGroup' => array(
+							array('label' => 'Campaign Source', 'classname' => 'utm_source', 'type' => 'Select', 'size' => 12)
+						)
+					),
+					array(
+						'formGroup' => array(
+							array('label' => 'Campaign Content', 'classname' => 'utm_content', 'type' => 'Select', 'size' => 12)
+						)
+					),
+					array(
+						'formGroup' => array(
+							array('label' => 'Campaign Term', 'classname' => 'utm_term', 'type' => 'Select', 'size' => 12)
+						)
+					),
+					array(
+						'formGroup' => array(
+							array('label' => 'GPS Source', 'classname' => 'gps_source', 'type' => 'Select', 'size' => 12)
+						)
+					)
+				)
+			);
+			foreach($searchFields as $section => $groups){
+				foreach($groups as $group){
+					include ROOT_PATH . '/app/views/home/templates/formGroup.php';
+				}
+			}
+			?>
 			</form>
 		</div>
 	</div>

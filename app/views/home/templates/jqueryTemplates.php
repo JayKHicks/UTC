@@ -36,13 +36,13 @@ example: $("#urlTableTemplate").tmpl(data).appendTo("#urlTable")
 								<div class="form-group">
 									{{each item}}
 									<div class="col-sm-${size}">
-										<label class="control-label ${classname}">${label}</label>
+										<label class="control-label">${label}</label>
 											{{if type === 'select'}}
-											<select class="form-control">
+											<select class="form-control ${classname}">
 												<option val="">--</option>
 											</select>
 											{{else}}
-											<input type="text" class="form-control" ${attr}>
+											<input type="text" class="form-control ${classname}" ${attr}>
 											{{/if}}
 									</div>
 									{{/each}}
