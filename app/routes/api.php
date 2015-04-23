@@ -6,6 +6,15 @@
  * Time: 11:07 AM
  */
 
+$apiAuthenticate = function($app) {
+    return function() use ($app) {
+        if (!isset($_SESSION['user'])) {
+            //error_log('user not logged in', 3, '/var/tmp/phperror.log'); //Write error log
+            echo '{"error":{"text": "user not logged in"}}';
+        }
+    };
+};
+
 $app->get('/api/login', 'login');
 // urls
 $app->get('/api/urls', 'getUrls');
@@ -19,18 +28,42 @@ $app->get('/api/mediums/:id', 'getMedium');
 $app->post('/api/mediums', 'addMedium');
 $app->put('/api/mediums/:id', 'updateMedium');
 $app->delete('/api/mediums/:id', 'deleteMedium');
-// channels
-$app->get('/api/channels', 'getChannels');
-$app->get('/api/channels/:id', 'getChannel');
-$app->post('/api/channels', 'addChannel');
-$app->put('/api/channels/:id', 'updateChannel');
-$app->delete('/api/channels/:id', 'deleteChannel');
+// sources
+$app->get('/api/source', 'getSources');
+$app->get('/api/source/:id', 'getSource');
+$app->post('/api/source', 'addSource');
+$app->put('/api/source/:id', 'updateSource');
+$app->delete('/api/source/:id', 'deleteSource');
 // campaigns
-$app->get('/api/campaign', 'getUrls');
-$app->get('/api/campaign/:id', 'getUrl');
-$app->post('/api/campaign', 'addUrl');
-$app->put('/api/campaign/:id', 'updateUrl');
-$app->delete('/api/campaign/:id', 'deleteUrl');
+$app->get('/api/campaign', 'getCampaigns');
+$app->get('/api/campaign/:id', 'getCampaign');
+$app->post('/api/campaign', 'addCampaign');
+$app->put('/api/campaign/:id', 'updateCampaign');
+$app->delete('/api/campaign/:id', 'deleteCampaign');
+// terms
+$app->get('/api/term', 'getTerms');
+$app->get('/api/term/:id', 'getTerm');
+$app->post('/api/term', 'addTerm');
+$app->put('/api/term/:id', 'updateTerm');
+$app->delete('/api/term/:id', 'deleteTerm');
+// contents
+$app->get('/api/content', 'getContents');
+$app->get('/api/content/:id', 'getContent');
+$app->post('/api/content', 'addContent');
+$app->put('/api/content/:id', 'updateContent');
+$app->delete('/api/content/:id', 'deleteContent');
+// gpssources
+$app->get('/api/gpsSource', 'getGpsSources');
+$app->get('/api/gpsSource/:id', 'getGpsSource');
+$app->post('/api/gpsSource', 'addGpsSource');
+$app->put('/api/gpsSource/:id', 'updateGpsSource');
+$app->delete('/api/gpsSource/:id', 'deleteGpsSource');
+// baseurls
+$app->get('/api/baseUrl', 'getBaseUrls');
+$app->get('/api/baseUrl/:id', 'getBaseUrl');
+$app->post('/api/baseUrl', 'addBaseUrl');
+$app->put('/api/baseUrl/:id', 'updateBaseUrl');
+$app->delete('/api/baseUrl/:id', 'deleteBaseUrl');
 
 function login() {
 
@@ -69,7 +102,7 @@ function getUrl($id) {
 function addUrl() {
     $request = Slim::getInstance()->request();
     $url = json_decode($request->getBody());
-    $sql = "INSERT INTO url (creator, createDate, version, baseUrl, fk_campaignID, fk_mediumID, fk_channelID, content, term, gpsExtension) VA//LUES (:creator, :createDate, :version, :baseUrl, :fk_campaignID, :fk_mediumID, :fk_channelID, :content, :term, :gpsExtension)";
+    $sql = "INSERT INTO url (creator, createDate, version, baseUrl, fk_campaignID, fk_mediumID, fk_channelID, content, term, gpsExtension) VALUES (:creator, :createDate, :version, :baseUrl, :fk_campaignID, :fk_mediumID, :fk_channelID, :content, :term, :gpsExtension)";
     try {
         $db = new \UCT\Database();
         $stmt = $db->prepare($sql);
