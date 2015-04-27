@@ -62,6 +62,36 @@ $app->hook('slim.before.dispatch', function() use ($app) {
     $app->view()->setData('user', $user);
 });
 
+function login($email, $password, $app) {
+    $errors = array();
+
+    if (empty($email) || empty($password)) {
+        $errors['email'] = "Username (or) Password is invalid";
+    } else {
+        include(APP_PATH.'config/user.php');
+
+        if (isset($userSay[$email])) {
+            if ($userSay[$email]['password'] == $password) {
+                $_SESSION['user']=$email;
+
+                if (isset($_SESSION['urlRedirect'])) {
+                    $tmp = $_SESSION['urlRedirect'];
+                    unset($_SESSION['urlRedirect']);
+                    $app->redirect($tmp);
+                }
+
+                $app->redirectTo('home');
+            } else {
+                $errors['password'] = "Username or (Password) is invalid";
+            }
+        } else {
+            $errors['email'] = "(Username) or Password is invalid";
+        }
+    }
+
+    return $errors;
+}
+
 $app->get('/', $authenticate($app), function () use ($app,$log) {
     $data = array();
     $app->render('home.php', $data);
@@ -101,31 +131,7 @@ $app->post('/login', function () use ($app) {
     $email = $app->request()->post('inputEmail');
     $password = $app->request()->post('inputPassword');
 
-    $errors = array();
-
-    if (empty($email) || empty($password)) {
-        $errors['email'] = "Username (or) Password is invalid";
-    } else {
-        include(APP_PATH.'config/user.php');
-
-        if (isset($userSay[$email])) {
-            if ($userSay[$email]['password'] == $password) {
-                $_SESSION['user']=$email;
-
-                if (isset($_SESSION['urlRedirect'])) {
-                    $tmp = $_SESSION['urlRedirect'];
-                    unset($_SESSION['urlRedirect']);
-                    $app->redirect($tmp);
-                }
-
-                $app->redirectTo('home');
-            } else {
-                $errors['password'] = "Username or (Password) is invalid";
-            }
-        } else {
-            $errors['email'] = "(Username) or Password is invalid";
-        }
-    }
+    $errors = login($email, $password);
 
     if (count($errors) > 0) {
         $app->flash('errors', $errors);
